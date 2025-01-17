@@ -1,25 +1,23 @@
+.open-sans-normal {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
 
-
-.open-sans-normal{
-  font-family: "Open Sans", serif;
-  font-optical-sizing: auto;
-  
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
 /* -----------------------Shared style---------------------- */
-.text-primary{
+.text-primary {
     color: #FD6E0A;
 }
 
 
-.dark-2{
+.dark-2 {
     color: #474747;
 }
 
-.btn-primary{
+.btn-primary {
     background: #FD6E0A;
     font-weight: bold;
     font-size: 20px;
@@ -29,43 +27,43 @@
     border-radius: 5px;
 }
 
-.section-title{
+.section-title {
     font-size: 35px;
     font-weight: bold;
     color: #181818;
 }
 
-.section-description{
+.section-description {
     font-size: 18px;
     color: #757575;
 
 }
 
-.secondary-bg{
+.secondary-bg {
     background-color: #FFF8F3;
 }
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
 /* -------------------Header----------------------------- */
-.header{
-    background-image: url('../images/developer.png'),url('../images/header_bg.png');
+.header {
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat;
-    background-position: top left ,bottom right;
+    background-position: top left, bottom right;
 }
 
 
 /* ------------------Nav Styles------------------------------  */
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0px 200px;
 }
 
-.nav-title{
+.nav-title {
     font-weight: 800;
     font-size: 45px;
 }
@@ -75,93 +73,148 @@ nav ul {
     display: flex;
     align-items: center;
 }
-nav ul li{
+
+nav ul li {
     list-style: none;
-    margin-right: 50px; 
+    margin-right: 50px;
 }
 
-nav li a{
+nav li a {
     text-decoration: none;
     font-size: 20px;
-    
+
 }
 
 /* ------------------Banner Style---------------------- */
 
-.banner{
+.banner {
     display: flex;
     justify-content: space-between;
-    margin: 0 35px 0 200px ;
+    margin: 0 35px 0 200px;
 }
 
-.banner-content{
+.banner-content {
     max-width: 580px;
 }
 
-.banner-greetings{
+.banner-greetings {
     font-size: 54px;
     font-weight: 600;
 
 }
 
-.banner-title{
+.banner-title {
     font-size: 85px;
     font-weight: bold;
 }
 
-.banner-descripton{
-    font-size: 18px;    
+.banner-descripton {
+    font-size: 18px;
 }
 
-.banner-profile-pic{
+.banner-profile-pic {
     width: 580px;
 
 }
 
 /* ------------Main Style------------------ */
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
 
-main section{
+main section {
     margin-top: 130px;
     margin-bottom: 130px;
 }
 
 /* -----------About Style --------------- */
-.about{
+.about {
     border-radius: 10px;
-    padding: 130px 150px ;
+    padding: 130px 150px;
     text-align: center;
     /* margin-top: 130px; */
 
 }
 
 
-.about-items{
+.about-items {
     display: flex;
     justify-content: space-around;
 }
 
-.item-description{
+.item-description {
     font-weight: 600;
 
 }
 
-.item-title{
+.item-title {
     margin-bottom: none;
 }
 
 /* ----------Skills Section---------- */
 
-.skills-container{
+.skills-container {
     display: flex;
     gap: 24px;
 
 }
 
-.skill{
+.skill {
     padding: 30px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+
+/* ----------Resume Section----------- */
+
+.resume-container {
+    display: flex;
+    gap: 24px;
+}
+
+.experience-description {
+    color: #757575;
+}
+
+.experience-sub-title {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.resume hr {
+    margin: 30px 5px;
+}
+
+
+.resume-download-cv {
+    margin-top: 50px;
+}
+
+
+/* -------Footer Style --------------- */
+
+footer {
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+
+footer input[type="text"], footer input[type="email"], footer textarea {
+    height: 64px;
+    border-radius: 5px;
+    border-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+
 }
